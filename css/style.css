@@ -1,0 +1,95 @@
+
+
+.panel {
+    border: 1px solid rgb(254, 249, 231);
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: rgb(72, 201, 176); !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: rgb(169, 223, 191); !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: rgb(241, 148, 138);
+    color: #fff;
+}
+
+blockquote{
+    color: rbg(231, 76, 60);
+
+}
+body h1{
+    
+   position: center;
+}
+body{
+    background-color: rgb(209, 242, 235  );
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid; }
+
+.carousel-item {
+  height: 550px; }
+
+.carousel-image-1 {
+  background: url("../img/fimg1.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/fimg3.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/fimg2.jpg");
+  background-size: cover; }
+
+.jumbotron{
+    background-color: rgb(250, 219, 216);
+}
+
+
+
